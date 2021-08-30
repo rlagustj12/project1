@@ -1,0 +1,457 @@
+*{margin: 0;padding: 0;}
+
+body{
+    font-family: "나눔스퀘어라운드";
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* 헤더 부분 픽스가 안됨... */
+
+
+/*--------------------헤더 시작--------------------*/
+
+/*header 부분 픽스 시키기*/
+
+header{
+    overflow: hidden;
+    width: 100%;
+    height: 100px; 
+    background-color: #EF85B3;
+}
+
+.header2{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    /*position: sticky;
+    top: 0;*/
+}
+.logo{
+    margin: 17px 0;
+    /*padding: 25px 0;*/
+    float: left;
+}
+.nav{
+    float: right;
+    margin-top: 30px;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.nav ul li:last-child{padding-right: 0;}
+
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: "나눔스퀘어";
+    font-weight: 535;
+}
+
+.nav ul li a:hover{
+    color: #b100b1;
+}
+
+/*--------------------헤더 끝--------------------*/
+
+
+/*----------------- 첫 컨텐츠 시작 -----------------*/
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    /*margin-top: -5px;*/
+}
+
+#banner .banner_text{
+    position: absolute;
+    top: 34%;
+    left: 360px;
+}
+
+/*#banner .banner_text .text{
+    top: 245px;
+}*/
+
+#banner .banner_text h3.sub_t{
+    font-size: 1.2vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    color: #555656;
+    margin-bottom: -15px;
+    font-family: "나눔스퀘어라운드";
+    font-weight: lighter;
+}
+
+#banner .banner_text span img{
+    margin-top: 20px;
+}
+
+#banner .banner_text h1.name{
+    font-size: 6.2vw;
+    color: #EF85B3;
+    font-weight: lighter;
+    font-family: "배달의민족 주아";
+}
+
+#banner .banner_text span{
+    display: flex;
+    border-radius: 30px;
+    color: #c8c8c8;
+}
+
+/*------------------ 첫 컨텐츠 끝------------------*/
+
+
+/*--------------- 두번째 컨텐츠 시작 ---------------*/
+
+#banner1{
+    position: relative;
+}
+
+#banner1 img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+#banner1 .banner_text{
+    position: absolute;
+    top: 30%;
+    left: 610px;
+}
+
+#banner1 .banner_text h1{
+    font-size: 1.8vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    text-align: center;
+    color: #fff;
+    font-family: "서울남산체 EB"; /*서울남산체로 변경하기*/
+    font-weight: bold;
+}
+
+#banner1 .banner_text h3{
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    font-family: "나눔스퀘어라운드";
+    line-height: 1.5;
+    font-size: 0.9vw;
+}
+
+#banner1 .banner_text span{
+    display: flex;
+    border-radius: 30px;
+    color: #c8c8c8;
+}
+
+/*----------------- 두번째 컨텐츠 끝 ----------------*/
+
+/*---------------- 세번째 컨텐츠 시작 ---------------*/
+
+#banner2{
+    position: relative;
+}
+
+#banner2 img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+#banner2 .banner_text{
+    position: absolute;
+    top: 27%;
+    left: 360px;
+}
+
+#banner2 .banner_text h1.name2{
+    font-size: 2vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    color: #3E3F43;
+    font-family: "서울남산체 EB"; /*서울남산체로 변경하기*/
+}
+
+#banner2 .banner_text h3.sub_t2{
+    color: #3E3F43;
+    font-weight: lighter;
+    font-family: "나눔스퀘어라운드";
+    line-height: 1.5;
+    font-size: 1vw;
+}
+
+#banner2 .banner_text span.title{
+    font-size: 2.5vw;
+    color: #EF85B3;
+    font-family: "배달의민족 주아";
+}
+
+/*---------- 위 텍스트 부분 끝 ----------*/
+
+
+
+/*-------- icon 부분 시작 --------*/
+
+.icon{
+    margin: 180px -20px;
+    /*페딩은 마이너스값이 없지만 마진은 마이너스값 있음*/
+}
+.icon, .icon > .column{
+    /*padding: 8px;*/
+}
+
+#banner2 .banner_text .icon .icon_group img{
+    /*background-color: beige;*/
+    width: 1200px;
+    /*margin-left: -40px;*/
+    margin-bottom: 20px;
+}
+
+.column{
+    float: left;
+    /*background-color: aqua;*/
+    color: white;
+}
+
+.icon:after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+.content1{
+    padding: 10px;
+    margin-left: 55px;
+    /**/
+}
+.content2{
+    padding: 10px;
+    margin-left: 220px;
+    margin-right: 200px;
+    /**/
+}
+.content3{
+    padding: 10px;
+    margin-right: 200px;
+    /**/
+}
+
+p{
+    text-align: center;
+    line-height: 28px;
+}
+
+/*---------------- 세번째 컨텐츠 끝 ---------------*/
+
+
+.row1{
+    padding-left: 55px;
+}
+
+.row2{
+    padding-left: 75px;
+}
+
+.row3{
+    padding-left: 85px;
+}
+
+
+/*--------------- 네번째 컨텐츠 시작 --------------*/
+
+#banner3{
+    position: relative;
+}
+
+#banner3 img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+#banner3 .banner_text2{
+    position: absolute;
+    top: 16%;
+    left: 360px;
+}
+
+#banner3 .banner_text2 h1.name3{
+    font-size: 2vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    color: #3E3F43;
+    font-family: "서울남산체 EB"; /*서울남산체로 변경하기*/
+    font-weight: 1000;
+}
+
+#banner3 .banner_text2 h3.sub_t3{
+    color: #3E3F43;
+    font-weight: lighter;
+    font-family: "나눔스퀘어라운드";
+    line-height: 1.5;
+    font-size: 1.0vw;
+}
+
+#banner3 .banner_text2 span.title2{
+    font-size: 2vw;
+    color: #EF85B3;
+}
+
+/*----------------- 네번째 컨텐츠 끝 ----------------*/
+
+/*--------------- 다섯번째 컨텐츠 시작 ---------------*/
+
+#banner4{
+    position: relative;
+}
+
+#banner4 img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+#banner4 .banner_text3{
+    position: absolute;
+    top: 28%;
+    left: 975px;
+    line-height: 1.5;
+}
+
+#banner4 .banner_text4{
+    position: absolute;
+    top: 56%;
+    left: 975px;
+    line-height: 1.5;
+}
+
+#banner4 .banner_text3 h1.name4{
+    font-size: 2vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    font-family: "서울남산체 EB"; /*서울남산체로 변경하기*/
+    color: #fff;
+}
+
+#banner4 .banner_text4 h1.name4{
+    font-size: 2vw;
+    /*vw : 브라우저 크기에 대응해서 폰트사이즈 2%의 크기로 나타난다는 의미*/
+    font-family: "서울남산체 EB"; /*서울남산체로 변경하기*/
+    color: #fff;
+}
+
+
+
+#banner4 .banner_text3 h3.sub_t4{
+    color: #fff;
+    font-weight: lighter;
+    font-family: "나눔스퀘어라운드";
+    line-height: 1.5;
+    font-size: 0.9vw;
+}
+
+#banner4 .banner_text4 h3.sub_t4{
+    color: #fff;
+    font-weight: lighter;
+    font-family: "나눔스퀘어라운드";
+    line-height: 1.5;
+    font-size: 0.9vw;
+}
+
+/*--------------- 다섯번째 컨텐츠 끝 ---------------*/
+
+/*--------------- 여섯번째 컨텐츠 시작 ---------------*/
+
+#banner5{
+    position: relative;
+}
+
+#banner5 img{
+    width: 100%;
+    margin-top: -5px;
+}
+
+#banner5 .banner_text5{
+    position: absolute;
+    top: 75%;
+    left: 360px;
+}
+
+#banner5 .banner_text5 span.title3{
+    display: flex;
+    /*border-radius: 30px;*/
+    color: #c8c8c8;
+}
+
+#banner5 .banner_text5 span.title3 a{
+    width: 170px;
+}
+
+/*--------------- 여섯번째 컨텐츠 끝 ---------------*/
+
+/*-------------------- 푸터 시작 -------------------*/
+
+#footer{
+    background-color: #484848;
+    font-family: "나눔스퀘어";
+    margin-top: -5px;
+}
+
+#footer .bottom{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* 양쪽으로 배분 */
+    padding: 65px 0;
+    box-sizing: border-box;
+}
+
+#footer .bottom .address ul.text1{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#footer .bottom .address ul.text2{
+    line-height: 25px;
+}
+
+#footer .bottom .address ul.text3{
+    line-height: 25px;
+    margin-left: 250px;
+    margin-top: -105px;
+}
+
+#footer .bottom .address li{
+    color: #aeb7b7;
+    padding: 0 10px;
+}
+#footer .bottom .address li a{
+    color: #aeb7b7;
+}
+
+#footer .bottom .sns{
+    width: 40px;
+}
+
+#footer .bottom .sns img{
+    margin-left: 20px;
+}
+
+/*-------------------- 푸터 끝 --------------------*/
+
+
+
+
+
+
+
